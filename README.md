@@ -38,7 +38,7 @@ $ pip install f5-sdk bigsuds netaddr deepdiff request objectpath openpyxl
 <br>
 
 
-You will need to create and copy a <em>root<em> ssh-key to the bigip device<br>
+You will need to create and copy a <em>root</em> ssh-key to the bigip device<br>
 $ ssh-keygen <br>
 Accept the defaults<br>
 $ ssh-copy-id -i /root/.ssh/id_rsa.pub root@\<bigip-<em><b>management-ip</b></em>\><br>
